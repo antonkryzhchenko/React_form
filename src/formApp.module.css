@@ -1,0 +1,39 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.formTitle {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 40px;
+}
+
+.formInput {
+    padding: 10px;
+    border: none;
+    width: inherit;
+    margin-top: 10px;
+    border-bottom: 2px solid teal;
+}
+
+.formButton {
+    font-size: 30px;
+    margin-top: 20px;
+    padding: 20px;
+    border: none;
+    border-radius: 40px;
+    width: 80%;
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+}
