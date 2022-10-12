@@ -48,10 +48,10 @@ class FormApp extends React.Component {
             />
             <button className={styles.formButton}>Зарегестрироваться</button>
             <br />
-            {showNotification && (
+        </form>
+        {showNotification && (
                 <Notification firstName={firstName} secondName={secondName} />
             )}
-        </form>
         </>
         );
     }
